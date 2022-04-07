@@ -1,0 +1,62 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    font-size: 64px;
+}
+p {
+    color: red;
+}
+
+#p1 {
+    font-size:24px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#p2 {
+    font-size:16px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.small {
+    width: 50px;
+    height: 50px;
+    margin:20px;
+    float: left;
+    transform: translate(0, -25px);
+}
+
+#grumpy {
+    width: 300px;
+    border-style:solid;
+    border-radius: 10px;
+}
+
+.upsidedown {
+    transform: rotate(180deg);
+}
+
+.container {
+    margin-top: 50px;
+    position: absolute;
+    text-align: center;
+}
+  
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#p3 {
+    font-size:36px;
+}
+
+#p4 {
+    margin-top: 100px;
+    border-style:dotted;
+    width: 200px;
+    text-align: center;
+}
